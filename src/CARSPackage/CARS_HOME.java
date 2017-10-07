@@ -26,7 +26,7 @@ public class CARS_HOME extends HttpServlet {
 		//this is the initiate method. We set up two test parameter here. 
 				
 		int int1 = 123;		
-		String string1 = "this is a test for jsp";
+		String string1 = "this is a test for Jiajun";
 	
 
 		
