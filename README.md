@@ -8,5 +8,22 @@ Members:
 	Wilson Weng,
 	Narciso Ramire
 
+'\n'
+
+Online access: http://cs3.calstatela.edu:8080/cs3337stu06/test
+
+
+Jose's important industrial experience:
+
+REQ 	24%
+DES 	16%
+CODE 	12%
+TEST 	48%
+
+Cost per employee: 
+For a person with salary 100K, total cost to the company is 300k. 
+
+Average number of lines a software engineer writes per day:  
+LOC = 50 lines /day  
 
 
