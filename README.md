@@ -8,7 +8,19 @@ Members:
 	Wilson Weng,
 	Narciso Ramire
 
-'\n'
+
+Test Data: 
+id  name                student_ID    	card_ID
+
+1	Arturia Pendragon	Saber01			111111
+2	Heracules			Berserker01		222222
+3	Gilgamesh			Archer02		333333
+4	Emiya				Archer01		444444
+
+
+
+
+
 
 Online access: http://cs3.calstatela.edu:8080/cs3337stu06/test
 
