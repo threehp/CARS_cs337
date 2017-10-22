@@ -16,6 +16,7 @@ id  name                student_ID    	card_ID
 2	Heracules			Berserker01		222222
 3	Gilgamesh			Archer02		333333
 4	Emiya				Archer01		444444
+5   Tamamo
 
 
 
