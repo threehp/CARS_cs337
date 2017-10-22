@@ -18,11 +18,11 @@ Student attended this class:
 		<th>Entry Time</th>
 	</tr>
 	<c:forEach items="${StudentList }" var="list" varStatus = "listStatus">
-	<tr>
-		<td>${list.name }</td>
-		<td>${list.student_ID }</td>
-		<td>${list.entryTime }</td>
-	</tr>
+		<tr>
+			<td>${list.name }</td>
+			<td>${list.student_ID }</td>
+			<td>${list.entryTime }</td>
+		</tr>
 
 	</c:forEach>
 

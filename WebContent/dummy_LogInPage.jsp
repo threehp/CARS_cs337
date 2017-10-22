@@ -10,7 +10,7 @@
 
 <p>Professor Log In</p>
 
-<p>
+
 <form action="CARS_LogIn" method="post">
 <table>
 	<tr>
@@ -55,7 +55,7 @@
 
 </table>
 </form>
-</p>
+
 
 
 
