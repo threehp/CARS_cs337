@@ -92,9 +92,9 @@ public class CARS_StudentList extends HttpServlet {
 		
 		
 		
-		request.setAttribute("StudentList", StudentList);
-		
+		request.setAttribute("StudentList", StudentList);	
 		request.setAttribute("time", classStartTime);
+		
 		request.getRequestDispatcher("dummy_StudentListPage.jsp").forward(request, response);
 		
 		
