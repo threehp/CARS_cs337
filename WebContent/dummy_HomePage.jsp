@@ -30,7 +30,7 @@
 ${error_message }
 
 <br><br>
-<a href='CARS_LogIn'>Professor Log In</a>
+<a href='CARS_LogIn'>Professor Logs In</a>
 
 
 </p>
