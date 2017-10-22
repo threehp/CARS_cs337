@@ -113,7 +113,7 @@ public class CARS_Search extends HttpServlet {
 			String error = "Data not found. Please re-swipe or manually enter your student ID number.";
 			
 			request.setAttribute("error_message",error);			
-			request.getRequestDispatcher( "dummy_HomePage.jsp" ).forward( request, response );
+			request.getRequestDispatcher( "CARS_FrontPage.jsp" ).forward( request, response );
 		}else {
 			
 			request.setAttribute("StudentList",StudentList );						
