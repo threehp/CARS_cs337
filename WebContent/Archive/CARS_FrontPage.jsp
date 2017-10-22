@@ -5,7 +5,7 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Card Attendance Recording System</title>
-	<Link href = "css/FrontPageStyle.css" rel="stylesheet" type="text/css"> 
+	<Link href = "1css/FrontPageStyle.css" rel="stylesheet" type="text/css"> 
 </head>
 <body>
 	<form action="CARS_LogIn" method="get">

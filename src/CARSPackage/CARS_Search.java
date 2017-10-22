@@ -51,6 +51,9 @@ public class CARS_Search extends HttpServlet {
 		String student_ID = null;
 		String card_ID = null;
 				
+		
+		
+		
 		List<students> StudentList = new ArrayList<students>();
 		
 		//initialize connection to MySQL database
@@ -107,6 +110,10 @@ public class CARS_Search extends HttpServlet {
 	            }
 	        }
 	
+		
+		
+		
+		
 		
 		if (index==-1){        // index  ==-1 means no data found above, so give error message
 			

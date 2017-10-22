@@ -1,0 +1,168 @@
+@charset "ISO-8859-1";
+
+/*html
+{
+	min-width: 1024px;
+	min-height: 700px;
+}*/
+
+body
+ {
+    background-color: SaddleBrown; /* For browsers that do not support gradients */
+    background-size: cover; 	
+    background-repeat: no-repeat;
+    
+}
+
+.InputBox[type=text]
+ {
+    background-color: white;
+    text-align: center;
+    padding: 5px 5px;
+  	margin: 25px;
+  	width: 30%;
+  	align-content:center;
+   	position: absolute;
+   	top: 60%;
+   	left:40%;
+   	margin-top: -50px;
+   	margin-left: -100px;
+   	border-radius: 8px;
+   	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    
+ }
+ 
+ .EagleImage
+ {
+ 	align-content:center;
+   	position: absolute;
+   	top: 20%;
+   	left: 50%;
+   	margin-top: -50px;
+   	margin-left: -100px;
+ }
+ 
+ .FooterTxt
+ {
+  	font-size: 150%;
+ 	font-family: "Times New Roman", Times, serif;
+ 	align-content:center;
+   	position: absolute;
+   	top: 88%;
+   	left: 43%;
+   	margin-top: -50px;
+   	margin-left: -100px;
+ 
+ }
+
+.SubmitBttn
+{
+	width: 7%;
+	height: 5%;
+	position: absolute;
+   	top: 60%;
+   	left: 73%;
+   	margin-top: -50px;
+   	margin-left: -100px;
+   	background-color: black;
+   	color: yellow;
+   	border: none;
+   	border-radius: 8px;
+   	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+.SubmitBttn:hover{
+	background-color: yellow;
+	color: black;
+}
+
+.LostCardBttn
+{
+	width: 10%;
+	height: 5%;
+	position: absolute;
+   	top: 70%;
+   	left: 52%;
+   	margin-top: -50px;
+   	margin-left: -100px;	
+   	background-color: black;
+   	color: yellow;
+   	border: none;
+   	border-radius: 8px;
+   	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+.LostCardBttn:hover{
+	background-color: yellow;
+	color: black;
+}
+
+.LogInBttn
+{   
+	width: 10%;
+	height: 4%;
+	position: absolute;
+   	top: 15%;
+   	left: 95%;
+   	margin-top: -50px;
+   	margin-left: -100px;	
+   	background-color: black;
+   	color: yellow;
+   	border: none;
+   	border-radius: 8px;
+   	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+.LogInBttn:hover{
+	background-color: yellow;
+	color: black;
+}
+
+.searchType
+{
+	position: absolute;
+   	top: 63.5%;
+   	left: 42%;
+}
+.searchType2
+{
+	position: absolute;
+   	top: 63.5%;
+   	left: 48%;
+}
+
+.Label1
+{
+	position: absolute;
+   	top: 63%;
+   	left: 44%;
+   	font-size: 130%;
+}
+.Label1:hover{
+	color: yellow;
+}
+.Label2
+{
+	position: absolute;
+   	top: 63%;
+   	left: 50%;
+   	font-size: 130%;
+}
+.Label2:hover{
+	color: yellow;
+}
+
+
+.content
+{
+	
+	position: absolute;
+   	top: 70%;
+   	left: 25%;
+   	color:Black;
+   	font-size: 150%;
+   	font-weight: bold;
+   
+   	
+   	
+}
+
