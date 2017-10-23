@@ -1,7 +1,7 @@
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <!DOCTYPE html>
 <html>
-<!--  <body background="CarsBack.png">-->
+<!--  <body background="CarsBack.png" trying something>-->
 <head>
 	<meta charset="UTF-8">
 	<title>Card Attendance Recording System</title>
