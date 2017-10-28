@@ -3,16 +3,18 @@
 <html>
 <head>
 <meta charset="UTF-8">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
 <title>Insert title here</title>
 </head>
 <body>
 
-
-<p>Professor Log In</p>
-
+<div class="page-header">
+	<h1>Professor Log In</h1>
+</div>
 
 <form action="CARS_LogIn" method="post">
-<table>
+<table class="table table-bordered table-striped table-hover">
 	<tr>
 		<td>Username:</td>
 		<td><input type="text" name="username" placeholder="whatever name is fine"></td>
