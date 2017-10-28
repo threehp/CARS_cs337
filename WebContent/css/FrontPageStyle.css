@@ -1,17 +1,12 @@
 @charset "ISO-8859-1";
 
-/*html
-{
-	min-width: 1024px;
-	min-height: 700px;
-}*/
-
-body
- {
-    background-color: SaddleBrown; /* For browsers that do not support gradients */
-    background-size: cover; 	
-    background-repeat: no-repeat;
-    
+body{
+	height: 750px;
+    background: SaddleBrown; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(black, palegoldenrod); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(black, palegoldenrod); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(black, palegoldenrod); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(black, palegoldenrod); /* Standard syntax */
 }
 
 .InputBox[type=text]
@@ -22,7 +17,7 @@ body
   	margin: 25px;
   	width: 30%;
   	align-content:center;
-   	position: absolute;
+    position: absolute;
    	top: 60%;
    	left:40%;
    	margin-top: -50px;
@@ -31,7 +26,7 @@ body
    	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
     
  }
- 
+  
  .EagleImage
  {
  	align-content:center;
@@ -102,7 +97,7 @@ body
 	width: 10%;
 	height: 4%;
 	position: absolute;
-   	top: 15%;
+   	top: 19%;
    	left: 95%;
    	margin-top: -50px;
    	margin-left: -100px;	
@@ -161,9 +156,34 @@ body
    	color:Black;
    	font-size: 150%;
    	font-weight: bold;
-   
-   	
-   	
+    	
 }
+
+
+
+
+
+
+.box {
+  width: 40%;
+  margin: 0 auto;
+  background: rgba(255,255,255,0.2);
+  padding: 35px;
+  border: 2px solid #fff;
+  border-radius: 20px/50px;
+  background-clip: padding-box;
+  text-align: center;
 }
+
+.button {
+  font-size: 1em;
+  padding: 10px;
+  color: #fff;
+  border: 2px solid #06D85F;
+  border-radius: 20px/50px;
+  text-decoration: none;
+  cursor: pointer;
+  transition: all 0.3s ease-out;
+}
+
 
