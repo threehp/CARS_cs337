@@ -3,11 +3,12 @@
 <html>
 <head>
 <meta charset="UTF-8">
+<Link href = "css/FrontPageStyle.css" rel="stylesheet" type="text/css"> 
 <title>dummy search response page</title>
 </head>
 <body>
 
-<p>
+
 
 
 <c:forEach items= "${StudentList }" var="list" varStatus="listStatus">
