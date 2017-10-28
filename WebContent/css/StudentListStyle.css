@@ -1,0 +1,63 @@
+@charset "ISO-8859-1";
+
+/*html
+{
+	min-width: 1024px;
+	min-height: 700px;
+}*/
+
+body
+ {
+    background-color: SaddleBrown; /* For browsers that do not support gradients */
+    background-size: cover; 	
+    background-repeat: no-repeat;
+    color: yellow;
+}
+
+table
+{
+	background-color: white;
+	width: 70%;
+}
+
+
+th, td
+{
+	padding: 5px;
+	text-align: left;
+}
+
+tr:nth-child(odd)
+{
+	background-color: #ffb76f
+}
+
+tr:nth-child(even)
+{
+	background-color: #ffffa8
+}
+
+
+
+.Label1
+{
+	color: black;
+	font-size: 120%;
+}
+
+
+
+.DoneBttn
+{   
+	font-size: 150%;
+	position: absolute;
+   	background-color: orange;
+   	color: yellow;
+   	border: none;
+   	border-radius: 8px;
+   	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+.DoneBttn:hover{
+	background-color: yellow;
+	color: black;
+}
