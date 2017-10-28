@@ -4,6 +4,7 @@
 <head>
 <meta charset="UTF-8">
 <title>Insert title here</title>
+<Link href = "css/StudentListStyle.css" rel="stylesheet" type="text/css"> 
 </head>
 <body>
 
@@ -11,14 +12,14 @@ Class Started at ${time} <br>
 
 <p>
 Student attended this class:
-<table border = '1' >
-	<tr>
+<table border = '1' class = "Table" >
+	<tr class = "Label1">
 		<th>Name</th>
 		<th>Student ID</th>
 		<th>Entry Time</th>
 	</tr>
 	<c:forEach items="${StudentList }" var="list" varStatus = "listStatus">
-		<tr>
+		<tr class = "Label1">
 			<td>${list.name }</td>
 			<td>${list.student_ID }</td>
 			<td>${list.entryTime }</td>
@@ -29,7 +30,7 @@ Student attended this class:
 </table>
 </p>
 
-<p>
+<p class = "DoneBttn">
 	<a href="CARS">Done</a>
 </p>
 </body>
