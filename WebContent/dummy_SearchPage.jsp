@@ -6,12 +6,12 @@
 <Link href = "css/FrontPageStyle.css" rel="stylesheet" type="text/css"> 
 <title>dummy search response page</title>
 </head>
-<body>
+<body class="Text">
 
 
 
 
-<c:forEach items= "${StudentList }" var="list" varStatus="listStatus">
+<c:forEach items= "${StudentList }" var="list" varStatus="listStatus" >
 
 Hello, <strong>${list.name}</strong>
 <br>
