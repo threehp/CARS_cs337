@@ -13,12 +13,12 @@
 
 <c:forEach items= "${StudentList }" var="list" varStatus="listStatus" >
 
-Hello, <strong>${list.name}</strong>
+<p style="color:white;"> Hello, <strong>${list.name}</strong>
 <br>
 your student ID is <strong>${list.student_ID}</strong>. 
 <br>
 you punched at ${list.entryTime }
-
+</p>
 </c:forEach>
 
 
