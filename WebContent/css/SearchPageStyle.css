@@ -1,0 +1,41 @@
+@charset "ISO-8859-1";
+
+body{
+	height: 750px;
+    background: SaddleBrown; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(black, palegoldenrod); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(black, palegoldenrod); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(black, palegoldenrod); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(black, palegoldenrod); /* Standard syntax */
+}
+
+.popup {
+  margin: 70px auto;
+  padding: 20px;
+  background: #fff;
+  border-radius: 5px;
+  width: 30%;
+  position: absolute;
+  transition: all 5s ease-in-out;
+  text-align: center;
+  top: 25%;
+  left: 35%;
+}
+
+.button
+{
+	
+	width: 7%;
+	height: 5%;
+	position: absolute;
+   	top: 75%;
+   	left: 55%;
+   	margin-top: -50px;
+   	margin-left: -100px;
+   	background-color: black;
+   	color: yellow;
+   	border: none;
+   	border-radius: 8px;
+   	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+
+}
