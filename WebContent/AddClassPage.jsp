@@ -18,7 +18,7 @@
 		<td>Teacher</td>		
 	</tr>
 	<tr>
-		<td><input type='text' name='classID'></td>
+		<td><input type='text' name='sectionID'></td>
 		<td><input type='text' name='className'></td>
 		<td><input type='text' name='teacherName'></td>
 		<td><input type='submit' value='Add Class'>
