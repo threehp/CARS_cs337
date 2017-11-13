@@ -11,7 +11,23 @@
 
 <form action='AddClass' method ='POST'>
 
+<table>
+	<tr>
+		<td>Section #</td>
+		<td>Class Name</td>
+		<td>Teacher</td>		
+	</tr>
+	<tr>
+		<td><input type='text' name='classID'></td>
+		<td><input type='text' name='className'></td>
+		<td><input type='text' name='teacherName'></td>
+		<td><input type='submit' value='Add Class'>
+	</tr>
 
+
+
+
+</table>
 
 
 
