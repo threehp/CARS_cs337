@@ -7,6 +7,7 @@
 <Link href = "css/StudentListStyle.css" rel="stylesheet" type="text/css"> 
 </head>
 <body>
+<form action="CARS_StudentList" method="post">
 
 Class Started at ${time} <br>
 
@@ -33,5 +34,6 @@ Student attended this class:
 <p class = "DoneBttn">
 	<a href="CARS">Done</a>
 </p>
+</form>
 </body>
 </html>
