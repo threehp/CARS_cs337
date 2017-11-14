@@ -70,5 +70,7 @@
 <a href=''>Add Student</a>
 <br>
 <a href=''>Add Class</a>
+<br>
+<a href='CARS'>CARS Home</a>
 </body>
 </html>

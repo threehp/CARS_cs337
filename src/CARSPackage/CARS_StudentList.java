@@ -69,10 +69,10 @@ public class CARS_StudentList extends HttpServlet {
             
             
             //ResultSet rs = stmt.executeQuery( "select * from students where entryTime > '" + classStartTime + "'; " );
-//            ResultSet rs = stmt.executeQuery( "select * from students s, "+section_ID+" c  wh"
-//            		+ "ere s.entryTime > '" + classStartTime + "' AND s.student_ID = c.student_ID; " );
+            ResultSet rs = stmt.executeQuery( "select * from students s, "+section_ID+" c  wh"
+            		+ "ere s.entryTime > '" + classStartTime + "' AND s.student_ID = c.student_ID; " );
             
-            ResultSet rs = stmt.executeQuery( "select * from students s, "+section_ID+" c where s.student_ID = c.student_ID " );
+         
             
             while( rs.next() )
             {
