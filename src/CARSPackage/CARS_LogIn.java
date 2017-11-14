@@ -14,6 +14,9 @@ import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
+import javax.servlet.http.HttpSession;
+
+import classes.students;
 
 
 
@@ -42,8 +45,8 @@ public class CARS_LogIn extends HttpServlet {
 
 
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-		
-		String month = (String)request.getParameter("month");
+
+        String month = (String)request.getParameter("month");
 		if (month.length()==1) month="0"+month;
 		String day = (String)request.getParameter("day");
 		if (day.length()==1) day="0"+day;
@@ -55,12 +58,13 @@ public class CARS_LogIn extends HttpServlet {
 		String classStartTime = "2017-"+ month + "-" + day + " " + hour + ":" + min;
 		
 		
-		//getServletContext().setAttribute("time", classStartTime);
+		getServletContext().setAttribute("time", classStartTime);
 		
 		
 		response.sendRedirect("CARS_StudentList?time="+classStartTime);
-
 		
+
+				
 	}
 
 }

@@ -7,23 +7,24 @@
 <Link href = "css/UserPortal.css" rel="stylesheet" type="text/css"> 
 </head>
 <body>
-<label class="Header">Welcome Back Richard!!!</label>
+
+
+ <label class="Header">Welcome Back Richard!!!</label>
 <label class="info">Please select a section and time to display class attendance.</label>
-
-<form action="" method="post">
-
-<img class="ProfImage" src="imgs/Richard.jpg">
-<div class="popup">
-<table >
+  <form action="Userportal" method="post">
+  
+ <img class="ProfImage" src="imgs/Richard.jpg">
+<div class="popup">   
+    
+  <table >
 	
 	<tr>
 		<td>Select Class: 
-			<select>
+			<select  name='section_ID'>
 				<c:forEach items="${ClassList }" var="list" varStatus = "listStatus">
-					<option name='section_ID' value ='${list.section_ID }'>
-					${list.section_ID} + ${list.className } + ${list.class_ID }
-					</option>				
-				
+					<option value="${list.section_ID}">
+					${list.section_ID} + ${list.className }
+					</option>								
 				</c:forEach>
 				<option>1</option>
 				<option>2</option>
@@ -74,6 +75,9 @@
 <br>
 <a href='' class="addStudent">Add Student</a>
 <br>
-<a href='' class="addClass">Add Class</a>
+  <a href='' class="addClass">Add Class</a>
+  <br>
+<a href='CARS'>CARS Home</a>
+
 </body>
 </html>
