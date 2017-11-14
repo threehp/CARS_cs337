@@ -8,7 +8,7 @@
 	<Link href = "css/FrontPageStyle.css" rel="stylesheet" type="text/css"> 
 </head>
 <body>
-	<form action="CARS_LogIn" method="get">
+	<form action="Login" method="get">
 			<INPUT class= "LogInBttn" TYPE="submit" value="Professor Login" >
 	</form>
 	
