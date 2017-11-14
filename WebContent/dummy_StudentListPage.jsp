@@ -31,7 +31,7 @@ Student attended this class:
 </p>
 
 <p class = "DoneBttn">
-	<a href="CARS">Done</a>
+	<a href="UserPortal">Done</a>
 </p>
 </body>
 </html>

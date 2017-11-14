@@ -7,18 +7,19 @@
 </head>
 <body>
 <p>User Portal</p>
+<p>welcome ${username }</p>
 
 <form action="" method="post">
+
 <table >
 	
 	<tr>
 		<td>Select Class: 
-			<select>
+			<select  name='section_ID'>
 				<c:forEach items="${ClassList }" var="list" varStatus = "listStatus">
-					<option name='section_ID' value ='${list.section_ID }'>
-					${list.section_ID} + ${list.className } + ${list.class_ID }
-					</option>				
-				
+					<option value="${list.section_ID}">
+					${list.section_ID} + ${list.className }
+					</option>								
 				</c:forEach>
 				<option>1</option>
 				<option>2</option>
