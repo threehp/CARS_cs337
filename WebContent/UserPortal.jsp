@@ -3,12 +3,17 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Insert title here</title>
+<title>Professor's Main Page</title>
+<Link href = "css/UserPortal.css" rel="stylesheet" type="text/css"> 
 </head>
 <body>
-<p>User Portal</p>
+<label class="Header">Welcome Back Richard!!!</label>
+<label class="info">Please select a section and time to display class attendance.</label>
 
 <form action="" method="post">
+
+<img class="ProfImage" src="imgs/Richard.jpg">
+<div class="popup">
 <table >
 	
 	<tr>
@@ -28,7 +33,7 @@
 	</tr>
 	
 	<tr>
-		<td>Class Started at: </td>
+		<td class="class1">Class Started at: </td>
 		<td>2017-
 			<select name="month">
 				<c:forEach begin="1" end="12" var="i">
@@ -54,20 +59,21 @@
 		</td>
 	</tr>
 	<tr>
-		<td>Time format:</td>
+		<td class="class2">Time format:</td>
 		<td>2017  -MM  -DD   HH  :  MM</td>
 	</tr>
 
 	<tr>
-		<td><input type="submit" value="Display Class"></td>
+		<td><input type="submit" value="Display Class" class="Bttn"></td>
 	</tr>
 	
 
 </table>
+</div>
 </form>
 <br>
-<a href=''>Add Student</a>
+<a href='' class="addStudent">Add Student</a>
 <br>
-<a href=''>Add Class</a>
+<a href='' class="addClass">Add Class</a>
 </body>
 </html>
