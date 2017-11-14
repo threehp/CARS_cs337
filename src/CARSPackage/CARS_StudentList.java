@@ -39,18 +39,7 @@ public class CARS_StudentList extends HttpServlet {
 		
 		//String section_ID = (String)getServletContext().getAttribute("section_ID");
 		String section_ID = (String)request.getParameter("sectionID");
-		
-		
-//		response.setContentType("text/html");		
-//		PrintWriter out = response.getWriter();
-//		
-//		out.println("123 ");
-//		out.println(section_ID);
-		
-		
-		
-		
-		
+				
 		List<students> StudentList = new ArrayList<students>();		
 	
 

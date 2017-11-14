@@ -11,7 +11,7 @@
 
  <label class="Header">Welcome Back ${username}!!!</label>
 <label class="info">Please select a section and time to display class attendance.</label>
-  <form action="UserPortal" method="post">
+<form action="UserPortal" method="post">
   
  <img class="ProfImage" src="imgs/Richard.jpg">
 <div class="popup">   
@@ -26,9 +26,7 @@
 					${list.section_ID} + ${list.className }
 					</option>								
 				</c:forEach>
-				<option>1</option>
-				<option>2</option>
-			
+
 			</select>
 		</td>	
 	</tr>
@@ -73,9 +71,9 @@
 </div>
 </form>
 <br>
-<a href='' class="addStudent">Add Student</a>
+<a href='AddStudent' class="addStudent">Add Student</a>
 <br>
-  <a href='' class="addClass">Add Class</a>
+  <a href='AddClass' class="addClass">Add Class</a>
   <br>
 <a class="goBack" href='CARS'>CARS Home</a>
 
