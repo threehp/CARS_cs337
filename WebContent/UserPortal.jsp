@@ -9,7 +9,7 @@
 <body>
 
 
- <label class="Header">Welcome Back Richard!!!</label>
+ <label class="Header">Welcome Back ${username}!!!</label>
 <label class="info">Please select a section and time to display class attendance.</label>
   <form action="Userportal" method="post">
   
@@ -35,7 +35,7 @@
 	
 	<tr>
 		<td class="class1">Class Started at: </td>
-		<td>2017-
+		<td class="date">2017-
 			<select name="month">
 				<c:forEach begin="1" end="12" var="i">
 					<option value="${i}"> ${i} </option>
@@ -61,7 +61,7 @@
 	</tr>
 	<tr>
 		<td class="class2">Time format:</td>
-		<td>2017  -MM  -DD   HH  :  MM</td>
+		<td class="format">2017  -MM  -DD   HH  :  MM</td>
 	</tr>
 
 	<tr>
@@ -77,7 +77,7 @@
 <br>
   <a href='' class="addClass">Add Class</a>
   <br>
-<a href='CARS'>CARS Home</a>
+<a class="goBack" href='CARS'>CARS Home</a>
 
 </body>
 </html>
