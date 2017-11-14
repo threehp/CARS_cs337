@@ -11,7 +11,7 @@
 
  <label class="Header">Welcome Back ${username}!!!</label>
 <label class="info">Please select a section and time to display class attendance.</label>
-  <form action="Userportal" method="post">
+  <form action="UserPortal" method="post">
   
  <img class="ProfImage" src="imgs/Richard.jpg">
 <div class="popup">   
