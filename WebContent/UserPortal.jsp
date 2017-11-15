@@ -13,7 +13,7 @@
 <label class="info">Please select a section and time to display class attendance.</label>
 <form action="UserPortal" method="post">
   
- <img class="ProfImage" src="imgs/Richard.jpg">
+ <img class="ProfImage" src="imgs/${username}.jpg">
 <div class="popup">   
     
   <table >
