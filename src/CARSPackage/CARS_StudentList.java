@@ -1,6 +1,7 @@
 package CARSPackage;
 
 import java.io.IOException;
+import java.io.PrintWriter;
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.ResultSet;
@@ -36,10 +37,11 @@ public class CARS_StudentList extends HttpServlet {
 		//String classStartTime = (String)getServletContext().getAttribute("time");
 		String classStartTime = (String)request.getParameter("time");
 		
-		
+		//String section_ID = (String)getServletContext().getAttribute("section_ID");
+		String section_ID = (String)request.getParameter("sectionID");
+				
 		List<students> StudentList = new ArrayList<students>();		
 	
-
 
 		Connection c = null;
 		
@@ -55,8 +57,12 @@ public class CARS_StudentList extends HttpServlet {
             Statement stmt = c.createStatement();
             
             
-            ResultSet rs = stmt.executeQuery( "select * from students where entryTime > '" + classStartTime + "'; " );
-
+            //ResultSet rs = stmt.executeQuery( "select * from students where entryTime > '" + classStartTime + "'; " );
+            ResultSet rs = stmt.executeQuery( "select * from students s, "+section_ID+" c  wh"
+            		+ "ere s.entryTime > '" + classStartTime + "' AND s.student_ID = c.student_ID; " );
+            
+         
+            
             while( rs.next() )
             {
                 int index = rs.getInt("id");
@@ -88,8 +94,6 @@ public class CARS_StudentList extends HttpServlet {
 	                throw new ServletException( e );
 	            }
 	        }
-		
-		
 		
 		
 		request.setAttribute("StudentList", StudentList);	

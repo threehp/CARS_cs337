@@ -3,33 +3,37 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Insert title here</title>
+<title>Professor's Main Page</title>
+<Link href = "css/UserPortal.css" rel="stylesheet" type="text/css"> 
 </head>
 <body>
-<p>User Portal</p>
 
-<form action="" method="post">
-<table >
+
+ <label class="Header">Welcome Back ${username}!!!</label>
+<label class="info">Please select a section and time to display class attendance.</label>
+<form action="UserPortal" method="post">
+  
+ <img class="ProfImage" src="imgs/Richard.jpg">
+<div class="popup">   
+    
+  <table >
 	
 	<tr>
 		<td>Select Class: 
-			<select>
+			<select  name='section_ID'>
 				<c:forEach items="${ClassList }" var="list" varStatus = "listStatus">
-					<option name='section_ID' value ='${list.section_ID }'>
-					${list.section_ID} + ${list.className } + ${list.class_ID }
-					</option>				
-				
+					<option value="${list.section_ID}">
+					${list.section_ID} + ${list.className }
+					</option>								
 				</c:forEach>
-				<option>1</option>
-				<option>2</option>
-			
+
 			</select>
 		</td>	
 	</tr>
 	
 	<tr>
-		<td>Class Started at: </td>
-		<td>2017-
+		<td class="class1">Class Started at: </td>
+		<td class="date">2017-
 			<select name="month">
 				<c:forEach begin="1" end="12" var="i">
 					<option value="${i}"> ${i} </option>
@@ -54,20 +58,24 @@
 		</td>
 	</tr>
 	<tr>
-		<td>Time format:</td>
-		<td>2017  -MM  -DD   HH  :  MM</td>
+		<td class="class2">Time format:</td>
+		<td class="format">2017  -MM  -DD   HH  :  MM</td>
 	</tr>
 
 	<tr>
-		<td><input type="submit" value="Display Class"></td>
+		<td><input type="submit" value="Display Class" class="Bttn"></td>
 	</tr>
 	
 
 </table>
+</div>
 </form>
 <br>
-<a href=''>Add Student</a>
+<a href='AddStudent' class="addStudent">Add Student</a>
 <br>
-<a href=''>Add Class</a>
+  <a href='AddClass' class="addClass">Add Class</a>
+  <br>
+<a class="goBack" href='CARS'>CARS Home</a>
+
 </body>
 </html>
