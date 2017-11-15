@@ -18,9 +18,15 @@
 		<td>Teacher</td>		
 	</tr>
 	<tr>
-		<td><input type='text' name='sectionID'></td>
-		<td><input type='text' name='className'></td>
-		<td><input type='text' name='teacherName'></td>
+		<td><input type='text' name='section_ID' required></td>
+		<td><input type='text' name='className' required></td>
+		<td>
+			<select name="teacher">
+				<option value="Jose">Jose</option>
+				<option value="Richard">Richard</option>
+			
+			</select>
+		</td>
 		<td><input type='submit' value='Add Class'>
 	</tr>
 
