@@ -28,7 +28,7 @@
 
 		<td colspan="2" class = "Label2">Belongs to class (check all applicable:) </td>	
 		
-		<td class = "Label3"><input type='submit' value='Add Student'>
+		<td><input type='submit' value='Add Student'>
 	</tr>
 	<c:forEach items="${ClassList }" var="list" varStatus = "listStatus">
 		<tr>		
