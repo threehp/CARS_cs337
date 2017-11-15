@@ -11,11 +11,11 @@
 
  <label class="Header">Welcome Back ${username}!!!</label>
 <label class="info">Please select a section and time to display class attendance.</label>
-<<<<<<< HEAD
-  <form action="Userportal" method="post">
-=======
+
+  <form action="UserPortal" method="post">
+
 <form action="UserPortal" method="post">
->>>>>>> 167bbde8a3003de6f3cbfb5902d7563b8aedc832
+
   
  <img class="ProfImage" src="imgs/Richard.jpg">
 <div class="popup">   
@@ -75,15 +75,15 @@
 </div>
 </form>
 <br>
-<<<<<<< HEAD
+
 <a href='' class="addStudent">Add Student</a>
 <br>
   <a href='' class="addClass">Add Class</a>
-=======
+
 <a href='AddStudent' class="addStudent">Add Student</a>
 <br>
   <a href='AddClass' class="addClass">Add Class</a>
->>>>>>> 167bbde8a3003de6f3cbfb5902d7563b8aedc832
+
   <br>
 <a class="goBack" href='CARS'>CARS Home</a>
 

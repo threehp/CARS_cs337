@@ -1,8 +1,7 @@
 package CARSPackage;
 
 import java.io.IOException;
-<<<<<<< HEAD
-=======
+
 import java.io.PrintWriter;
 import java.sql.Connection;
 import java.sql.DriverManager;
@@ -13,18 +12,17 @@ import java.util.ArrayList;
 import java.util.List;
 
 
->>>>>>> 167bbde8a3003de6f3cbfb5902d7563b8aedc832
+
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-<<<<<<< HEAD
-=======
+
 import classes.classes;
 
->>>>>>> 167bbde8a3003de6f3cbfb5902d7563b8aedc832
+
 /**
  * Servlet implementation class AddStudent
  */
@@ -40,14 +38,10 @@ public class AddStudent extends HttpServlet {
         // TODO Auto-generated constructor stub
     }
 
-<<<<<<< HEAD
+
 	/**
 	 * @see HttpServlet#doGet(HttpServletRequest request, HttpServletResponse response)
 	 */
-	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-		// TODO Auto-generated method stub
-		response.getWriter().append("Served at: ").append(request.getContextPath());
-=======
     
     
 
@@ -106,17 +100,17 @@ public class AddStudent extends HttpServlet {
 		request.setAttribute("errorMsg", errorMsg);
 		request.setAttribute("ClassList", Classes);
 		request.getRequestDispatcher( "AddStudentPage.jsp" ).forward( request, response );
->>>>>>> 167bbde8a3003de6f3cbfb5902d7563b8aedc832
+
 	}
 
 	/**
 	 * @see HttpServlet#doPost(HttpServletRequest request, HttpServletResponse response)
 	 */
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-<<<<<<< HEAD
+
 		// TODO Auto-generated method stub
 		doGet(request, response);
-=======
+
 		
 		response.setContentType("text/html");		
 		PrintWriter out = response.getWriter();
@@ -199,7 +193,7 @@ public class AddStudent extends HttpServlet {
 		}
 		
 		
->>>>>>> 167bbde8a3003de6f3cbfb5902d7563b8aedc832
+
 	}
 
 }

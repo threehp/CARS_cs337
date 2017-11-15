@@ -108,14 +108,7 @@ public class UserPortal extends HttpServlet {
 
 
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-<<<<<<< HEAD
-		 
-=======
-		
-		
-		
-		
->>>>>>> 167bbde8a3003de6f3cbfb5902d7563b8aedc832
+
 		String month = (String)request.getParameter("month");
 		if (month.length()==1) month="0"+month;
 		String day = (String)request.getParameter("day");
