@@ -1,0 +1,129 @@
+@charset "ISO-8859-1";
+
+body{
+	height: 750px;
+    background: SaddleBrown; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(black, palegoldenrod); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(black, palegoldenrod); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(black, palegoldenrod); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(black, palegoldenrod); /* Standard syntax */
+}
+
+.popup {
+  margin: 70px auto;
+  padding: 20px;
+  background: #fff;
+  border-radius: 5px;
+  width: 550px;
+  height: 150px;
+  position: absolute;
+  text-align: center;
+  top: 200px;
+  left: 500px;
+}
+
+.ProfImage
+ {
+ 	position: absolute;
+   	top: 320px;
+   	left: 350px;
+   	margin-top: -50px;
+   	margin-left: -100px;
+   	height: 190px;
+    width: 200px;
+ }
+ .Header
+ {
+ 	font-family: "Times New Roman", Times, serif;
+ 	font-size:50px;
+ 	align-content:center;
+   	position: absolute;
+   	top: 100px;
+   	left: 250px;
+   	color: yellow;
+ }
+ .info
+ {
+	font-size:20px;
+	align-content:center;
+   	position: absolute;
+   	top: 230px;
+   	left: 250px;
+   	color: yellow;
+ }
+ .Bttn
+ {
+	width: 150px;
+	height: 30px;
+	position: absolute;
+   	top: 170px;
+   	left: 300px;
+   	margin-top: -50px;
+   	margin-left: -100px;
+   	background-color: black;
+   	color: yellow;
+   	border: none;
+   	border-radius: 8px;
+   	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+ }
+ .Bttn:hover{
+	background-color: yellow;
+	color: black;
+}
+.class1
+{
+	position: absolute;
+   	top: 48px;
+   	left: 22px;
+}
+.class2
+{
+	position: absolute;
+   	top: 75px;
+   	left: 22px;	
+}
+.date
+{
+	position: absolute;
+   	top: 48px;
+   	left: 150px;
+}
+.format
+{
+	position: absolute;
+   	top: 75px;
+   	left: 150px;	
+}
+.addStudent
+{
+	position: absolute;
+   	top: 430px;
+   	left: 620px;
+   	color:black;
+}
+.addStudent:hover
+{
+	color:blue;
+}
+.addClass
+{
+	position: absolute;
+   	top: 430px;
+   	left: 740px;
+   	color: black;	
+}
+.addClass:hover
+{
+	color:blue;
+}
+.goBack
+{
+	position: absolute;
+   	top: 430px;
+   	left: 850px;
+   	color:black;
+}
+.goBack:hover
+{
+	color:blue;
+}
