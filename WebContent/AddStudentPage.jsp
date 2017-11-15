@@ -4,15 +4,16 @@
 <head>
 <meta charset="UTF-8">
 <title>Insert title here</title>
+<Link href = "css/AddStudentPage.css" rel="stylesheet" type="text/css"> 
 </head>
 
 <body>
-<p>Add Student</p>
+<p class = "Label1">Add Student</p>
 
 <form action='AddStudent' method ='POST'>
 
 <table>
-	<tr>
+	<tr class = "Table1">
 		<td>Name</td>
 		<td>Card ID</td>
 		<td>Student ID</td>		
@@ -24,7 +25,7 @@
 	</tr>
 
 	<tr>
-		<td>Belongs to class: 
+		<td class = "Label2">Belongs to class: 
 			<select>
 				<c:forEach items="${ClassList }" var="list" varStatus = "listStatus">
 					<option name='section_ID' value ='${list.section_ID }'>
@@ -42,7 +43,7 @@
 	<tr>
 		<td></td>
 		<td></td>
-		<td><input type='submit' value='Add Student'>
+		<td class = "Label3"><input type='submit' value='Add Student'>
 	</td>
 
 </table>
