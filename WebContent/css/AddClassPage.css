@@ -1,0 +1,47 @@
+body
+{
+	height: 750px;
+	background-size: cover; 	
+    background-repeat: no-repeat;
+    color:#600000;
+    background-color: #d26900;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+td{
+	padding: 3px;
+	text-align: left;
+}
+
+.Label1
+{
+	font-size: 200%;
+	border-bottom: 5px solid orange;
+	border-radius: 5px;
+	background-color:#ffff55;
+}
+
+.Label2{
+	border-left: 3px solid orange;
+	border-right: 3px solid orange;
+	border-radius: 5px;
+	background-color:#ffff55;
+}
+
+.Label3{
+	border-left: 3px solid orange;
+	border-right: 3px solid orange;
+	border-radius: 5px;
+	background-color:#ffff55;
+	text-align: center;
+}
+
+.Table1
+{
+	font-size: 120%;
+	border-bottom: 5px solid orange;
+	background-color:#ffff55;
+}
