@@ -4,6 +4,8 @@
 <head>
 <meta charset="UTF-8">
 <title>Insert title here</title>
+<Link href = "css/AddStudentPage.css" rel="stylesheet" type="text/css"> 
+
 </head>
 
 <body>
@@ -24,13 +26,13 @@
 	</tr>
 
 	<tr>
-		<td colspan="2">Belongs to class (check all applicable:) </td>	
+		<td colspan="2" class = "Label2">Belongs to class (check all applicable:) </td>	
 		
-		<td><input type='submit' value='Add Student'>
+		<td ><input type='submit' value='Add Student'>
 	</tr>
 	<c:forEach items="${ClassList }" var="list" varStatus = "listStatus">
 		<tr>		
-			<td colspan="2">
+			<td colspan="2" class = "Label2">
 			<input type ="checkbox" name="section_ID" value="${list.section_ID }">
 			${list.section_ID} - ${list.className }		
 			</td>
