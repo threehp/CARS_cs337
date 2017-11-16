@@ -15,24 +15,23 @@ body{
     text-align: center;
     padding: 5px 5px;
   	margin: 25px;
-  	width: 30%;
+  	width: 400px;
   	align-content:center;
    	position: absolute;
-   	top: 60%;
-   	left:40%;
+   	top: 440px;
+   	left: 575px;
    	margin-top: -50px;
    	margin-left: -100px;
    	border-radius: 8px;
    	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
-    
  }
  
  .myLabel
  {
  	align-content:center;
-   	position: absolute;
-   	top: 40%;
-   	left:33%;
+   	position: relative;
+   	top: 150px;
+   	left:350px;
    	color: gold;
    	font-size: 35px;
    	font-family: "Times New Roman", Times, serif;
@@ -40,9 +39,9 @@ body{
  .EagleImage
  {
  	align-content:center;
-   	position: absolute;
-   	top: 15%;
-   	left: 50%;
+   	position: relative;
+   	top: 100px;
+   	left: 700px;
    	margin-top: -50px;
    	margin-left: -100px;
  }
@@ -52,21 +51,20 @@ body{
   	font-size: 150%;
  	font-family: "Times New Roman", Times, serif;
  	align-content:center;
-   	position: absolute;
-   	top: 88%;
-   	left: 43%;
+   	position: relative;
+   	top: 400px;
+   	left: 575px;
    	margin-top: -50px;
    	margin-left: -100px;
- 
  }
 
 .SubmitBttn
 {
-	width: 7%;
-	height: 5%;
+	width: 75px;
+	height: 40px;
 	position: absolute;
-   	top: 60%;
-   	left: 73%;
+   	top: 440px;
+   	left: 1000px;
    	margin-top: -50px;
    	margin-left: -100px;
    	background-color: black;
@@ -86,7 +84,7 @@ body{
 	width: 10%;
 	height: 5%;
 	position: absolute;
-   	top: 70%;
+   	top: 72%;
    	left: 52%;
    	margin-top: -50px;
    	margin-left: -100px;	
@@ -104,11 +102,11 @@ body{
 
 .LogInBttn
 {   
-	width: 10%;
-	height: 4%;
+	width: 120px;
+	height: 40px;
 	position: absolute;
-   	top: 15%;
-   	left: 95%;
+   	top: 100px;
+   	left: 1400px;
    	margin-top: -50px;
    	margin-left: -100px;	
    	background-color: black;
@@ -125,21 +123,21 @@ body{
 .searchType
 {
 	position: absolute;
-   	top: 63.5%;
-   	left: 42%;
+   	top: 440px;
+   	left: 600px;
 }
 .searchType2
 {
 	position: absolute;
-   	top: 63.5%;
-   	left: 48%;
+   	top: 440px;
+   	left: 675px;
 }
 
 .Label1
 {
 	position: absolute;
-   	top: 63%;
-   	left: 44%;
+   	top: 440px;
+   	left: 625px;
    	font-size: 130%;
 }
 .Label1:hover{
@@ -148,8 +146,8 @@ body{
 .Label2
 {
 	position: absolute;
-   	top: 63%;
-   	left: 50%;
+   	top: 440px;
+   	left: 700px;
    	font-size: 130%;
 }
 .Label2:hover{
@@ -173,5 +171,7 @@ body{
 {
 	text-color: white;
 }
+
+
 
 
