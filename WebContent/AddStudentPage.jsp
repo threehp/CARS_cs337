@@ -5,16 +5,15 @@
 <meta charset="UTF-8">
 <title>Insert title here</title>
 <Link href = "css/AddStudentPage.css" rel="stylesheet" type="text/css"> 
-
 </head>
 
 <body>
-<p>Add Student</p>
+<p class = "Label1">Add Student</p>
 
 <form action='AddStudent' method ='POST'>
 
 <table>
-	<tr>
+	<tr class = "Table1">
 		<td>Name</td>
 		<td>Card ID</td>
 		<td>Student ID</td>		
@@ -26,9 +25,10 @@
 	</tr>
 
 	<tr>
+
 		<td colspan="2" class = "Label2">Belongs to class (check all applicable:) </td>	
 		
-		<td ><input type='submit' value='Add Student'>
+		<td><input type='submit' value='Add Student'>
 	</tr>
 	<c:forEach items="${ClassList }" var="list" varStatus = "listStatus">
 		<tr>		
@@ -39,6 +39,7 @@
 					
 		</tr>			
 	</c:forEach>
+
 
 
 </table>
