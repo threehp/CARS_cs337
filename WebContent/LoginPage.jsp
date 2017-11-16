@@ -3,7 +3,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<Link href = "css/Login.css" rel="stylesheet" type="text/css">
 <title>Insert title here</title>
 </head>
 <body>
@@ -14,7 +14,7 @@
 
 <form action="Login" method="post">
 
-<table class="table table-bordered table-striped table-hover">
+<table>
 	<tr>
 		<td>Username:</td>
 		<td><input type="text" name="username" placeholder="Jose"></td>
