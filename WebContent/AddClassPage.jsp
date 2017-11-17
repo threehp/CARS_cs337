@@ -4,18 +4,20 @@
 <head>
 <meta charset="UTF-8">
 <title>Insert title here</title>
+<Link href = "css/AddClassPage.css" rel="stylesheet" type="text/css"> 
 </head>
 <body>
-<p>Add Class</p>
+<p class = "Label1">Add Class</p>
 
 
 <form action='AddClass' method ='POST'>
 
 <table>
-	<tr>
+	<tr class = "Table1">
 		<td>Section #</td>
 		<td>Class Name</td>
-		<td>Teacher</td>		
+		<td>Teacher</td>
+		<td></td>		
 	</tr>
 	<tr>
 		<td><input type='text' name='sectionID'></td>

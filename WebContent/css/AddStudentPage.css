@@ -1,0 +1,59 @@
+@charset "ISO-8859-1";
+
+/*html
+{
+	min-width: 1024px;
+	min-height: 700px;
+}*/
+
+body
+{
+	height: 750px;
+	background-size: cover; 	
+    background-repeat: no-repeat;
+    color:black;
+    background: SaddleBrown; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(black, palegoldenrod); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(black, palegoldenrod); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(black, palegoldenrod); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(black, palegoldenrod); /* Standard syntax */
+}
+
+table {
+    border-collapse: collapse;
+}
+
+td{
+	padding: 3px;
+	text-align: left;
+}
+
+.Label1
+{
+	font-size: 200%;
+	border-bottom: 5px solid orange;
+	border-radius: 5px;
+	background-color:#ffff55;
+}
+
+.Label2{
+	border-left: 3px solid orange;
+	border-right: 3px solid orange;
+	border-radius: 5px;
+	background-color:#ffff55;
+}
+
+.Label3{
+	border-left: 3px solid orange;
+	border-right: 3px solid orange;
+	border-radius: 5px;
+	background-color:#ffff55;
+	text-align: center;
+}
+
+.Table1
+{
+	font-size: 120%;
+	border-bottom: 5px solid orange;
+	background-color:#ffff55;
+}

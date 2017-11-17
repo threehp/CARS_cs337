@@ -27,11 +27,21 @@ body{
     
  }
  
+ .myLabel
+ {
+ 	align-content:center;
+   	position: absolute;
+   	top: 40%;
+   	left:33%;
+   	color: gold;
+   	font-size: 35px;
+   	font-family: "Times New Roman", Times, serif;
+ }
  .EagleImage
  {
  	align-content:center;
    	position: absolute;
-   	top: 20%;
+   	top: 15%;
    	left: 50%;
    	margin-top: -50px;
    	margin-left: -100px;
